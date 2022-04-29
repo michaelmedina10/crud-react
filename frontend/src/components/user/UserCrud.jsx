@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Main from "../templates/Main";
 import axios from "axios";
 
+// Como se fosse o data(){return{}} do Vue.js
 const headerProps = {
   icon: "users",
   title: "Usuários",
@@ -9,6 +10,7 @@ const headerProps = {
 };
 
 const baseURL = "http://localhost:3001/users";
+
 const initialState = {
   user: { name: "", email: "" },
   list: [],
